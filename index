@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<head>
+    <title>Online petshop</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="petlogo.png" alt="petLogo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        Categories
+                    </li>
+                    <li>
+                        Dogs
+                    </li>
+                    <li>
+                        Contact
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- pet sEARCH Section Starts Here -->
+    <section class="dogs-search text-center">
+        <div class="container">
+            
+            <form>
+                <input type="search" name="search" placeholder="Search for ..." required>
+                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- CAtegories Section Starts Here -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore </h2>
+            <div class="box-3 float-container">
+                <img src="bulldog.jpg" alt="Bulldog" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Bulldog</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="poodle.jpg" alt="poodle" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">poodle</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="beagles.jpg" alt="Beagles" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Beagles</h3>
+            </div>
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Categories Section Ends Here -->
+
+    <!-- food MEnu Section Starts Here -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="chickenfeet.jpg" alt="chicken feet" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken Feet</h4>
+                    <p class="food-price">₹199.00</p>
+                    <p class="food-detail">
+                        chicken feet are loaded with natural glucosamine 
+                    </p>
+                     <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="turkeywing.jpg" alt="turkeywng" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Turkey Wing</h4>
+                    <p class="food-price">₹299.00</p>
+                    <p class="food-detail">
+                        Turkey wings are a great chew for small and big
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="chickenandmilk.jpg" alt="Chicke Hawain Burger" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>chicken and milk</h4>
+                    <p class="food-price">₹123</p>
+                    <p class="food-detail">
+                        PEDIGREE chicken and milk for puppy is a wholesome meal...
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="dry.jpg" alt="Dry,canned or semi-moist" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Dry canned semi moist</h4>
+                    <p class="food-price">₹150</p>
+                    <p class="food-detail">
+                        The extra suger and salt mean semi-mist food is not approprite for every dog
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="chickencaned.jpg" alt="chopped ground dinner" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken canned</h4>
+                    <p class="food-price">₹400</p>
+                    <p class="food-detail">
+                        HEartly healthy and tasty this meanty chicken dog foof recipe features ingrendients dogs love.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="clearfix"></div>
+
+            
+
+        </div>
+
+        <p class="text-center">
+            <a href="#">See All Foods</a>
+        </p>
+    </section>
+    <!-- fOOD Menu Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#">NandU</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+
+</body>
+
+
+</html>
